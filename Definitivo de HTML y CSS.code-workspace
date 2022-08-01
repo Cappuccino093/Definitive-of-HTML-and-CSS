@@ -6,27 +6,27 @@
 		},
 		{
 			"name": "Curso Definitivo De HTML Y CSS",
-			"path": "CursoDefinitivoDeHtmlYCss"
+			"path": "HTML/CursoDefinitivoDeHtmlYCss"
 		},
 		{
 			"name": "Clase IMG",
-			"path": "ClaseImg"
+			"path": "HTML/ClaseImg"
 		},
 		{
 			"name": "Clase Video",
-			"path": "ClaseVideo"
+			"path": "HTML/ClaseVideo"
 		},
 		{
 			"name": "Clase Forms",
-			"path": "ClaseForms"
+			"path": "HTML/ClaseForms"
 		},
 		{
 			"name": "Clase Calendario",
-			"path": "ClaseCalendario"
+			"path": "HTML/ClaseCalendario"
 		},
 		{
 			"name": "Clase Button",
-			"path": "ClaseButton"
+			"path": "HTML/ClaseButton"
 		}
 	]
 }
