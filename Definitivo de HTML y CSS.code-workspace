@@ -23,6 +23,10 @@
 		{
 			"name": "Clase Calendario",
 			"path": "ClaseCalendario"
+		},
+		{
+			"name": "Clase Button",
+			"path": "ClaseButton"
 		}
 	]
 }
