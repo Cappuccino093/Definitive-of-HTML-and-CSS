@@ -9,32 +9,27 @@
 </head>
 
 <body>
-	<!-- 	<form action="">
-		<label for="time">
-			<span>Hora</span>
-			<input type="time" name="time" id="time">
-		</label>
-		<label for="day">
-			<span>Día</span>
-			<input type="date" name="day" id="day">
-		</label>
-		<label for="week">
-			<span>Semana</span>
-			<input type="week" name="week" id="week">
-		</label>
-		<label for="month">
-			<span>Mes</span>
-			<input type="month" name="month" id="month">
-		</label>
-		<input type="submit">
-	</form> -->
-	<form action="">
-		<label for="calendar">
-			<span>Calendario</span>
-			<input type="datetime-local" name="calendar" id="calendar">
-		</label>
-		<input type="submit" value="Enviar">
-	</form>
+	<main>
+		<form action="">
+			<label for="name">
+				<span>Name: </span>
+				<input type="text" id="name" name="name" autocomplete="name" required>
+			</label>
+			<label for="email">
+				<span>E-Mail: </span>
+				<input type="email" name="email" id="email" autocomplete="email" required>
+			</label>
+			<label for="country">
+				<span>Country: </span>
+				<input type="text" name="country" id="country" autocomplete="country" required>
+			</label>
+			<label for="postal-code">
+				<span>Postal Code: </span>
+				<input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" required>
+			</label>
+			<input type="submit" value="Send">
+		</form>
+	</main>
 </body>
 
 </html>
