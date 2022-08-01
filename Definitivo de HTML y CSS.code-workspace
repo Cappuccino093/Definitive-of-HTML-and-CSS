@@ -19,6 +19,10 @@
 		{
 			"name": "Clase Forms",
 			"path": "ClaseForms"
+		},
+		{
+			"name": "Clase Calendario",
+			"path": "ClaseCalendario"
 		}
 	]
 }
