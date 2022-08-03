@@ -1,3 +1,13 @@
-h2 + p {
+div {
+	border: 1px solid black;
+}
+
+/* Adjacent Sibling */
+.adjacent-sibling h2 + p {
 	color: red;
+}
+
+/* General Sibling */
+.general-sibling h2 ~ p {
+	color: blue;
 }
