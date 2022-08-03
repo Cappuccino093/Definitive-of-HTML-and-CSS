@@ -1,0 +1,16 @@
+/* Elemento */
+p {
+	color: blue;
+	font-size: 40px;
+}
+
+/* Clase */
+.p {
+	color: red;
+}
+
+/* Id */
+#p {
+	color: yellow;
+	font-size: 24px;
+}
