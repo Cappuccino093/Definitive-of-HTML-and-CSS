@@ -1,13 +1,26 @@
-div {
+.adjacent-sibling,
+.general-sibling,
+.child,
+.descendant {
 	border: 1px solid black;
 }
 
 /* Adjacent Sibling */
-.adjacent-sibling h2 + p {
+.adjacent-sibling h2+p {
 	color: red;
 }
 
 /* General Sibling */
-.general-sibling h2 ~ p {
+.general-sibling h2~p {
 	color: blue;
+}
+
+/* Child */
+.child div>p {
+	color: yellow;
+}
+
+/* Descendant */
+.descendant div p {
+	color: green;
 }
