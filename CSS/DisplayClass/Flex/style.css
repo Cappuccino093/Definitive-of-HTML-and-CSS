@@ -13,9 +13,12 @@ body {
 }
 
 .container {
+	width: 100vw;
+	height: 100vh;
 	border: .3rem solid black;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
